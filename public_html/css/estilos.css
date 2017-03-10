@@ -22,7 +22,7 @@ display:inline;
 font-size: 20px; 
 font-weight: bold;
 padding: 10px;
-border-radius: 5px;
+border-radius: 1px;
 }
      #menu{
   text-align: center;
@@ -51,9 +51,48 @@ border-radius: 5px;
             width: 600px;
             padding: 1em;
             border: 1px solid #000;
-            border-radius: 5px;
+            border-radius: 1em;
+            background: whitesmoke;
             }
             
             form{
                 margin-top: 1em;
             }
+            
+            a:link{
+                color:blue;
+            }
+            
+            a:visited{
+                color:black;
+            }
+            a:active{
+                color:red;
+            }
+            label{
+                display: inline-block;
+                width: 100px;
+                text-align: right;
+            }
+            input, textarea{
+                font: 1em Arial;
+                width: 300px;
+            }
+            input:focus, textarea:focus{
+            border-color: red;
+            }
+            textarea{
+                vertical-align: top;
+            }
+            h1{
+                text-align: center;
+            }
+          
+            #fondo{
+            background: #1CDED5;
+            }
+            
+            
+            
+         
+            
