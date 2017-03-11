@@ -14,7 +14,7 @@ font-family: Forte;
 font-size: 40px;
 text-align: center;
 }
-
+/* Aplicando estilos, color de fondo, alineamento, centralizando texto, color a la pagina*/
 ul li{
 list-style-type: none; 
 background: #1CDED5;
@@ -22,7 +22,7 @@ display:inline;
 font-size: 20px; 
 font-weight: bold;
 padding: 10px;
-border-radius: 1px;
+border-radius: 7px;
 }
      #menu{
   text-align: center;
